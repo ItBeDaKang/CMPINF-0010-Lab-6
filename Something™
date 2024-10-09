@@ -1,0 +1,8 @@
+name=input("Enter a name")
+num=int(input("Enter a number"))
+if num >100:
+    print(name + ", "+ "this number is greater than 100")
+elif num <100:
+    print(name +", "+ "this number is less than 100")
+else:
+     print(name +", "+ "this number is equal to 100") 
